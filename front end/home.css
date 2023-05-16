@@ -1,0 +1,146 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(images/img1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: auto;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1000;
+}
+
+.navbar .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #31fa4c;
+    display: block;
+    transition: 0.2s linear;
+}
+
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+
+.navbar ul li a:hover{
+    color: #31fa4c;
+}
+
+.navbar .icon i{
+    font-size: 18px;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar .icon i:hover{
+    color: #31fa4c;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+}
+
+.container h1 {
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    position: relative;
+    font-family: Impact, serif;
+    padding-bottom: 50px;
+    line-height: 22px;
+  }
+
+  .container h1, p {
+    text-align: center;
+  }
+  
+  .container{
+    width: 80%;
+    height:100%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+  
+  .container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container .main_btn{
+    background: #8B4513;
+    position: relative;
+    left: 123px;
+    bottom: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.container .main_btn a{
+  color: #fff;
+  margin-right: 5px;
+  text-decoration: none;
+
+}
+
+.container .main_btn i{
+  color: #fff;
+  transition: 0.3s;
+}
+
+.container .main_btn:hover i{
+  transform: translateX(7px);
+}

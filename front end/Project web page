@@ -1,0 +1,13 @@
+Create a simple and efficient front end web pages for login, signup, home page and result page.
+Scenario: Real time air pollution monitoring system
+You can use HTML, CSS, JS
+Login page should consists of username and password. Also login button and forgot password option.
+Signup page should consists of Full name, location/place, phone number and password setting, and include signup button and the option for login if already amember.
+Home page should be of two types: after login and befor login.
+Both home page should contain a link toHome page in navigation bar, a heading "fresh air", a small description of relation between fresh air and air pollution. It can be any quote or any lines. Include suitable photo for it. 
+For home page before login, navigation bar shiuld contain link to login and signup after that of home. Below the description add a login button.
+For home page after login, instead of adding link to login and signup, add a link to result after a link to home. instead login button, add a button with placeholder "Check now"
+Result page should contain a navigation bar with link to home page and this page itself. The page should display "Air pollution is detected due to  NH3, NO2 etc."
+below this add a simple graph for Amount vs gas species. Also add a table with table headers Polutants, Expected range, Detected, and remarks.
+graph and table is sample. 
+Use relevant themes, backgroud colors, font colors, font sizes etc
